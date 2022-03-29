@@ -1,0 +1,8 @@
+nombre = input("Escribe tu producto: ")
+compra = float(input("Monto de la compra $: "))
+meses = int(input("Cantidad de meses: "))
+interes = float(input("Interes: "))
+total = (compra * (1 + interes/100))
+cuota = (total) / (meses)
+print("Tu compra del producto "+ nombre + " se facturo")
+print("la cuota es de $ %.i y el precio total a pagar en %.i meses con el %.i porciento sera de $ %.2f" %(cuota, meses, interes, total))
