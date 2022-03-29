@@ -1,0 +1,4 @@
+text = str(input("Escribe una palabra: "))
+veces = int(input("Escribe las veces que quieres que se repita: "))
+repeated = text* veces
+print(repeated)
