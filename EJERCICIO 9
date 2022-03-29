@@ -1,0 +1,15 @@
+nombre = input("Ingrese nombre del estudiante: ")
+matematicas =float(input("Ingrese nota de la materia matematica: "))
+sociales = float(input("Ingrese nota de la materia sociales: "))
+lenguaje = float(input("Ingrese nota de la materia lenguaje: "))
+ciencias = float(input("Ingrese nota de la materia ciencias: "))
+
+promedio = float((matematicas + sociales + lenguaje + ciencias) /4 )
+if promedio >= 7:
+  print("******************************************")
+  print("El promedio de notas de " + nombre + " es :% .2f" % promedio)
+  print("APROBADO")
+else:
+  print("******************************************")
+  print("El promedio de notas de " + nombre + " es :% .2f" % promedio)
+  print("REPROBADO")
