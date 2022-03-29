@@ -1,0 +1,21 @@
+print("Clasificaciones de peliculas")
+edad = int(input("Cual es tu edad: "))
+if 17 <= edad <= 18:
+    clasificacion = input("  La clasificacion de la pelicula que quiere ver (B , C  , D ): ")
+    if clasificacion == "B":
+        print("puedes ver esta pelicula")
+    else:
+        print("no puedes ver esta pelicula")
+if 19 <= edad <= 21:
+    clasificacion = input("  La clasificacion de la pelicula que quiere ver (B , C  , D ): ")
+    if clasificacion == "C":
+        print("puedes ver esta pelicula")
+    else:
+        print("no puedes ver esta pelicula")
+if  22 <= edad <= 99:
+    clasificacion = input("  La clasificacion de la pelicula que quiere ver (B , C  , D ): ")
+    if clasificacion == "D":
+        print("puedes ver esta pelicula")
+else:
+  if edad > 100:
+    print(" Tu ya ni miras ")
