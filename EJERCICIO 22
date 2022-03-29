@@ -1,20 +1,20 @@
 def sumar():
-    x = a + b
-    print (("Resultado"), (x))
+    resultado = a + b
+    print (("Resultado"), (resultado))
 def restar():
-    x = a - b
-    print (("Resultado"), (x))
+    resultado = a - b
+    print (("El resultado es: "), (resultado))
 def multiplicar():
-    x = a * b
-    print (("Resultado"), (x))
+    resultado = a * b
+    print (("El resultado es: "), (resultado))
 def dividir():
-    x = a / b
-    print (("Resultado"), (x))
+    resultado = a / b
+    print (("El resultado es: "), (resultado))
 while True:
     try:
         a = int(input("Ingresa el primer numero: \n"))
         b = int(input("Ingresa el segundo numero: \n"))
-        print (("Que calculo quieres realizar entre"), (a), ("y"), (b), ("?\n"))
+        print ("Elige una opcion")
         opcion = str(input(""" 
         1- Sumar
         2- Restar
@@ -23,15 +23,15 @@ while True:
     except:
         print ("Error")
         opcion = '?'
-    if opcion == '1':
+    if opcion == "1":
         sumar()
         break
-    elif opcion == '2':
+    elif opcion == "2":
         restar()
         break
-    elif opcion == '3':
+    elif opcion == "3":
         multiplicar()
         break
-    elif opcion == '4':
+    elif opcion == "4":
         dividir()
         break
