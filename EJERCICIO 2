@@ -1,0 +1,12 @@
+texto = "esta es una lista"
+casa = 20
+kilo = 2.2
+lista = ["A" , " B" , "C" ]
+tupla = ("A" , " B" , "C")
+logico =(False)
+print("el tipo de dato es : ",type (texto))
+print("el tipo de dato es : ",type (casa))
+print("el tipo de dato es : ",type (kilo))
+print("el tipo de dato es : ",type (lista))
+print("el tipo de dato es : ",type (tupla))
+print("el tipo de dato es : ",type (logico))
