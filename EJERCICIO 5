@@ -1,0 +1,4 @@
+import math
+radio=float(input("Ingrese el radio: "))
+perimetro = 2 * math.pi * radio
+print ( "El valor del perimetro es :% .2f" % perimetro)
