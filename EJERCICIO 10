@@ -1,0 +1,20 @@
+A = int(input("Ingresa el primer numero este se llamara A : "))
+B = int(input("Ingresa el primer numero este se llamara B : "))
+if A>B:
+  print("********************************")
+  print("Los numeros que ingresaste son: ")
+  print("A:% .f" % A)
+  print("B:% .f" % B)
+  print("El número llamado A es mayor")
+elif A<B:
+  print("********************************")
+  print("Los numeros que ingresaste son: ")
+  print("A:% .f" % A)
+  print("B:% .f" % B)
+  print("El número v65461 B es es menor")
+else:
+  print("********************************")
+  print("Los numeros que ingresaste son: ")
+  print("A:% .f" % A)
+  print("B:% .f" % B)
+  print("Ingresaste el mismo número")
