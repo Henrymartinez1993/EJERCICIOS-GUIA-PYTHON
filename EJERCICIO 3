@@ -1,0 +1,12 @@
+a=45
+b=235
+suma = (a)+(b)
+print(f"el resultado de la suma es:  {suma}")
+resta  = (a)-(b)
+print(f"el resultado de la resta es:  {resta}")
+multi  = (a)*(b)
+print(f"el resultado de la multiplicacion es:  {multi}")
+division  = (a)/(b)
+print(f"el resultado de la division es:  {division}")
+potencia  = (a)**(b)
+print(f"el pequeño resultado de la potencia es:  {potencia}")
