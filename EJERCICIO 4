@@ -1,0 +1,6 @@
+celsius = int(input("¿cual es la temperatura en centigrados?: "))
+  
+fahrenheit = (celsius * 1.8) + 32
+  
+print('%.2f grados centigrados es equivalente a: %.2f Fahrenheit'
+      %(celsius, fahrenheit)) 
