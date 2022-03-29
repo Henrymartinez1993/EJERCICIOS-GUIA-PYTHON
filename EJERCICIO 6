@@ -1,0 +1,4 @@
+pie = int(input("Ingresa la cantidad en pies: "))
+pulgadas = pie * 12
+print('%.f pies es equivalente a: %.f pulgadas'
+      %(pie, pulgadas ))
